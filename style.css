@@ -1,0 +1,744 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+    width: 100%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: -webkit-fill-available;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: none;
+    margin: 0 25px;
+    background: radial-gradient(#fff,#ffd6d6);
+    padding: 30px;
+    overflow-y: hidden;
+}
+.fixed-top{
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+}
+.navbar-link{
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s;
+}
+.nav-link:hover{
+    color: #C70039 !important;
+}
+.front-page{
+    background: radial-gradient(#fff,#ffd6d6);
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.c1{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.second-slide{
+    width: 100%;
+    height: auto;
+}
+.third-carousel{
+    width: 100%;
+    height: auto;
+}
+a{
+    color: grey;
+}
+p{
+    color: #555;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: large;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item{
+    margin-right: 20px;
+}
+.nav-item a{
+    font-size: small;
+}
+.fa{
+    font-size: small;
+}
+.move-left{
+    margin-right: 20px;
+}
+.cart{
+    width: 37px;
+    height: 25px;
+    margin-right: 10px;
+}
+.container-fluid{
+    margin: auto;
+    padding: 65px  25px 0 25px;
+}
+.row{
+    padding-left: 25px;
+}
+.Logo{
+    width: 12%;
+    height: auto;
+    padding-left: 25px;
+}
+.text{
+    padding-top: 70px;
+    text-align: left;
+}
+.title-image{
+    width: 50%;
+    height: auto;
+    margin-left: 200px;
+}
+.c-body{
+    padding-top: 30px;
+}
+.Home-paragraph{
+    padding-top: 20px;
+}
+.col-h1{
+    font-size: 50px;
+    margin: 25px 0;
+    color: #C70039;
+}
+.bt1{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    border: none;
+    transition: 0.5s;
+
+}
+.bt1:hover{
+    background: #c70039;
+}
+section{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+/* Second Section */
+.second{
+    background: #fff;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.hf-capsule{
+    width: 70%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.Feature-carousel{
+    background: radial-gradient(#fff,#ffd6d6);;
+}
+.remove-top{
+    padding-top: 0;
+}
+.feature-title{
+    font-family: 'Poppins SemiBold 600', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.red{
+    width: 40%;
+    height: auto;
+}
+/* Third section */
+.small-container{
+    text-align: center;
+    background: radial-gradient(#fff,#ffd6d6);
+    padding-top: 30px;
+}
+.featured-products{
+    width: 50%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.featured-products:hover{
+    width: 55%;
+    height: auto;
+}
+.center{
+    text-align: center;
+    transition: transform 0.5s;
+}
+.center:hover{
+    transform: translateY(-5px);
+}
+.feature-text{
+   text-align: center;
+   margin: 0 auto 50px;
+   position: relative;
+   line-height: 50px;
+   color: #555;
+   font-size: 18px;
+   font-weight: 900;
+}
+/* .feature-text::after{
+    content: "";
+    background: #fff;
+    width: 80px;
+    height: 4px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    transform: translateX(-50);
+} */
+.rating-star{
+    color: #ff523b;
+}
+.rating-star:hover{
+    color: #ff4222;
+}
+.price{
+    font-size: small;
+}
+
+.Recommended-h4{
+    color: #555;
+    font-weight: normal;
+    font-size: large;
+    font-weight: 900;
+}
+
+/* Testimonials */
+.slide{
+    padding: 0 25px;
+    background-color: #fff;
+}
+.active{
+    background-color: #fff;
+    padding: 60 60px;
+    text-align: center;
+}
+.stupid-padding{
+    padding-bottom: 40px;
+}
+.testimonial-text{
+    color: #c70039;
+    font-size: 2.0rem;
+    line-height: 1.5;
+    padding-top: 50px;
+    font-weight: bold;
+
+}
+.testimonial-image{
+    border-radius: 50%;
+    width: 12%;
+}
+.Users-Name{
+    padding-left: 16px;
+    color: grey;
+    font-weight: 900;
+}
+
+/* Exclusive Offer section */
+.offer{
+    background:  radial-gradient(#fff,#ffd6d6);
+    margin-top: 60;
+}
+.offer-img{
+    width: 35%;
+    height: auto;
+    padding-top: 50px;
+    margin-left: 20rem;
+}
+.text-col{
+    padding: 50 25px 0;
+    display: inline-block;
+
+}
+.Exclusive-p{
+    padding-top: 10rem;
+    font-size: small;
+    color: gray;
+}
+.Exclusive-h1{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+small{
+    color: grey;
+}
+
+/* Testimonials 2 */
+.testimonials-2{
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+}
+.testimonial-col{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.testimonial-col:hover{
+    transform: translateY(-10px);
+}
+.stars{
+    text-align: center;
+    padding-left: 0;
+}
+.testimonial-image-2{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+    height: auto;
+} 
+.testimonial-p-2{
+    font-size: small;
+    line-height: 2;
+}
+.second-testimonial-h2{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+}
+.testimonial-container{
+    padding-left: 0;
+}
+.fa-quote-left{
+    font-size: 34px;
+    color: #ff523b;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 25px;
+
+}
+.footer-image{
+    width: 40%;
+    padding-bottom: 15px;
+}
+.Hes-text{
+    font-size: small;
+    text-align: left;
+}
+.HealingHerbals-img{
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 13px;
+}
+.HealingHerbals-text{
+    font-size: small;
+    text-align: left;
+}
+.icons{
+    font-size: large;
+}
+.fa-whatsapp{
+    padding-right: 5px;
+}
+.fa-telegram{
+    padding-right: 5px;
+}
+.fa-facebook-square{
+    padding-right: 5px;
+}
+.Beatrice-Container{
+    font-size: small;
+}
+.Beatrice-icon{
+    font-size: 15px;
+    padding-right: 5px;
+}
+.Beatrice-icon:hover{
+    color: #ff4222;
+}
+.Beatrice-Container p{
+    color: #555;
+}
+.Beatrice-Container p:hover{
+    color: #00aeef;
+}
+.tell{
+    text-decoration: none;
+    color: #555;
+}
+.tell:hover{
+    color: #00aeef;
+}
+.Time-Container{
+    font-size: small;
+    color: #555;
+}
+.Time-Container ul {
+    list-style: none;
+    padding-left: 0;
+    line-height: 2.0;
+}
+.Time-Container ul li{
+    color: #555;
+}
+.Time-Container ul li:hover{
+    color: #00aeef;
+}
+
+/* Copyright */
+.copyright{
+    padding-top: 10px;
+    background-color: black;
+    margin: 35 0;
+    text-align: center;
+}
+.copyright p{
+    padding-bottom: 15px;
+    font-size: xx-small;
+    margin-bottom: 0;
+}
+.copyright p:hover{
+    color: #00aeef;
+}
+.footer-header{
+    font-weight: bolder;
+    font-size: larger;
+    color: #fff;
+}
+footer{
+    margin-bottom: n;
+}
+/* Responsiveness */
+@media only screen and (max-width: 1400px ){
+    .title-image{
+        margin-top: 20px;
+    }
+    .bt1{
+        margin: 10px 0;
+    }
+    .Exclusive-p{
+        padding-top: 8rem;
+    }
+    .c-body{
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width: 1115px ){
+    .title-image{
+        margin-top: 120px;
+    }
+    .bt1{
+        margin: 10px 0;
+    }
+    .Exclusive-p{
+        padding-top: 8rem;
+    }
+    .c-body{
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width: 1045px){
+    .text{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 991px){
+    body{
+        overflow-y: scroll;
+    }
+    .Time-Container{
+       padding-top: 10px;
+    }
+    .Logo{
+        width: 30%;
+        height: auto;
+        padding-left: 25px;
+    }
+    .footer{
+        padding-left: 10px;
+    
+    }
+    .slide{
+        padding: 0 0px;
+    }
+    .container-fluid{
+        padding: 65px  0px 0 0px;
+    }
+    .row{
+        padding-left: 0px;
+    }
+    .Logo{
+        padding-left: 0px;
+    }
+    .navbar{
+        margin: 0 0px;
+    }
+    .title-image{
+        width: 50%;
+    }
+    .text{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .last-product{
+        width: 15%;
+    }
+    .last-product:hover{
+        width: 16%;
+    }
+    .offer-img{
+        width: 40%;
+        margin-left: 15rem;
+    }
+
+}
+@media only screen and (max-width: 924px){
+    .Home-paragraph{
+        font-size: small;
+    }
+}
+@media only screen and (max-width: 851px){
+    .title-image{
+        width: 60%;
+        margin-left: 150px;
+    }
+}
+@media only screen and (max-width: 777px){
+    .title-image{
+        width: 70%;
+        margin-left: 120px;
+    }
+}
+@media only screen and (max-width: 1036px){
+    .Exclusive-p{
+        padding-top: 6rem;
+    }
+}
+@media only screen and (max-width: 1084px){
+    .Exclusive-p{
+        padding-top: 5.4rem;
+    }
+}
+@media only screen and  (max-width: 867px){
+    .Exclusive-p{
+        padding-top: 4.2rem;
+    }
+}
+@media only screen and  (max-width: 795px){
+    .offer-img{
+        margin-left: 13rem;
+    }
+    .text-col{
+        padding-bottom: 10px;
+    }
+    .Logo{
+        width: 30%;
+    }
+}
+
+/* Mobile version  */
+@media only screen and  (max-width: 767px){
+    .logo{
+        width: 40%;
+    }
+    .title-image{
+        width: 40%;
+        margin-top: 20px;
+    }
+    .hf-capsule{
+        width: 30%;
+    }
+    .last-product{
+        width: 50%;
+    }
+    .last-product:hover{
+        width: 55%;
+    }
+    .offer-img{
+        margin-left: 35%;
+        width: 30%;
+        text-align: center;
+    }
+    .text-col{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .Exclusive-p{
+        padding-top: 2rem;
+    }
+    .footer-image{
+        width: 20%;
+    }
+    .HealingHerbals-img{
+        width: 20%;
+    }
+    .footer-header{
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .HealingHerbals-img{
+        width: 25%;
+    }
+}
+
+/* All Product Style */
+.All-products-header{
+    padding: 4rem 0;
+}
+.All-products-title{
+    padding-top: 10px;
+    text-align: left;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sorting{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+.sorting:focus{
+    outline: none;
+}
+@media (max-width: 991){
+    .sorting{
+        font-size: medium;
+    }
+}
+
+/* Pagnition */
+.page-btn{
+    margin: 0 auto 80px;
+}
+
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.page-btn span:hover{
+    background: #ff523b;
+    color: #fff;
+}
+
+.down{
+    padding-top: 20px;
+    padding-left: 50%;
+    padding-bottom: 10px;
+    width: 25%;
+    height: auto;
+}
+
+
+/* Single Products  */
+.single-product{
+    padding-top: 65px;
+}
+.single-product-text{
+    padding: 70px 0;
+    background-color: #d8c6de;
+}
+.movement{
+    padding-left: 40px;
+}
+.single-product-h1{
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+.single-product-h2{
+    line-height: 1.5;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+}
+.single-product-p{
+    color: #555;
+    font-size: small;
+}
+.single-product-p2{
+    color: #fff;
+    font-size: small;
+    display: inline-block;
+}
+.bd-capsule{
+    padding-left: 50%;
+    width: 100%;
+}
+.price{
+font-weight: bold;
+color: #555;
+}
+.button{
+    text-decoration: none;
+    border-radius: 0%;
+    padding: 5 10px;
+
+}
+.btn-2{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Related-product-h2{
+    font-size: medium;
+    display: inline;
+    margin-top: 60px;
+    font-weight: 400;
+}
+
+.Related-product-container{
+    padding-top: 60px;
+}
+
+/* Related Products  */
+.contact-button{
+    margin-top: 10;
+}
+
+@media (max-width: 991px){
+    .Related-products {
+        width: 25%;
+    }
+    .bd-capsule{
+        width: 75%;
+        padding-left: 220px;
+    }
+    .single-product-text{
+        text-align: center;
+    }
+}
+
+ /* Cart  */
+.table-container{
+    padding-top: 145px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-Info img{
+    width: 2%;
+    height: auto;
+}
